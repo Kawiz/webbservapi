@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+.other{
+  font-family: fantasy;
+}
+
+.container {
+  background-color: silver;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+
+h3{
+  text-align: center;
+}
+
+
+p{
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid green;
+  padding: 10px;
+  font-size: 16px;
+
+}
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 500px;
+}
+
+.button {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+
+}
+
+.recipes {
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 170px;
+  background-color: grey;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.card:hover {
+  background-color: lightcoral;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.15);
+  transition: all 0.65s ease;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-body {
+  padding: 5px;
+  text-align: center;
+}
+
+.category {
+  color: black;
+}
+
+a {
+  background-color: lightcoral;
+  color: inherit;
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: solid;
+}
+
